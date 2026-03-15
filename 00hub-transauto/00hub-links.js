@@ -29,7 +29,7 @@ const 	fromindex = navlinks[0];
 //--------------------------------------------------------------
 //		IN INDEX
 const 	pageimages = [{ id:0,
-		toindexpage 	: "00hub-transauto/03imgs/04indeximg0.jpg",
+		toindexpage 	: "00hub-transauto/03imgs/04indeximg.jpg",
 		}];
 const 	image = pageimages[0];
 

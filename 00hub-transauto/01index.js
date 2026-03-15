@@ -16,9 +16,10 @@ const 	indexfooter 	=	document.getElementsByClassName("indexfooter")[0];
 								`;
 		// 01 INDEX BODY
 		indexbody.innerHTML +=`	<div class="indexbody00">
+		
 								<div class="indextagbox01">
 								<div class="indextagbox0101">${tag.tag01}</div>
-								<div class="indextagbox0102">${tag.tag01descr}</div>
+								<div class="indextagbox0102">${tag.tag01descript}</div>
 								<div class="indextagbox0103"><a src="${fromindex.toservicespage}">${fromindex.servicepitch}</a></div>
 								</div>
 								</div>

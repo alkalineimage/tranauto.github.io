@@ -12,13 +12,13 @@ const	page =	pagenames[0];
 
 const 	indextags = [{ id:0,
 		title:"Index Tags",
-		tag01:"Find the car suited for your heart",		tag01descr:`	Finding a car is a daunting task, especially when you have a perticular
+		tag01:"Find the car suited for your heart",		tag01descript:`	Finding a car is a daunting task, especially when you have a perticular
 																		car in mind or you envision certain principles such as safety in your search.
 																		Either, way, you want the kind of service which is dependable and has a wide range
 																		vehicle options, suited for a variety of use cases. 
 																		Join the thousands of customers who have enjoyed our services in helping them find the perfect car.
 																		`,
-		tag02:"A car is more than a status symbol", 	tag02descr:"	Benoni, Johannesburg",
+		tag02:"A car is more than a status symbol", 	tag02descript:"	Benoni, Johannesburg",
 		}]
 const	tag =	indextags[0];
 
@@ -65,5 +65,21 @@ const 	eventsponsorform = [{ id:0,
 		clientmobile	: "Mobile"
 		}]
 const	eventsponsor = eventsponsorform[0];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
