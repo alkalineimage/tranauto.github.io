@@ -1,24 +1,37 @@
 
+const 	indexbg 		=	document.getElementsByClassName("indextransauto")[0];
 const 	indexnav 		=	document.getElementsByClassName("indexnav")[0];
 const 	indexbody 		=	document.getElementsByClassName("indexbody")[0];
 const 	indexfooter 	=	document.getElementsByClassName("indexfooter")[0];
 
 		// 01 NAVIGATION
-		indexnav.innerHTML +=`	<div class="navigation">
-								<div class="navigation01">	<a class="navlink"	href="${fromindex.toindexpage}">		${page.name00}</a></div>
-								<div class="navigation02">	<a class="navlink"	href="${fromindex.toaboutuspage}">		${page.name01}</a>
-															<a class="navlink" 	href="${fromindex.toservicespage}">		${page.name02}</a>
+		indexnav.innerHTML +=`	<div class="indexnav">
+								<div class="indexnav01">	<a class="navlink"	href="${fromindex.toindexpage}">		${page.name00}</a></div>
+								<div class="indexnav02">	<a class="navlink" 	href="${fromindex.toservicespage}">		${page.name01}</a>
+															<a class="navlink"	href="${fromindex.toaboutuspage}">		${page.name02}</a>
 															<a class="navlink" 	href="${fromindex.toportfoliopage}">	${page.name03}</a>
 															<a class="navlink" 	href="${fromindex.tocontactuspage}">	${page.name04}</a>
-								<div class="navigation03">	&nbsp;</div>
+								<div class="indexnav03">	&nbsp;</div>
 								</div>
 								`;
 		// 01 INDEX BODY
-		indexbody.innerHTML +=`	<div class="brcindex01">
-								<div class="brcindex01slogan">	<p>${btxt.ctxt001}</p></div>
-								<div class="brcindex01anchor">	<a href="${linkindex.tobeatroot}">${btxt.name01}</a></div>
+		indexbody.innerHTML +=`	<div class="indexbody00">
+								<div class="indextagbox01">
+								<div class="indextagbox0101">${tag.tag01}</div>
+								<div class="indextagbox0102">${tag.tag01descr}</div>
+								<div class="indextagbox0103"><a src="${fromindex.toservicespage}">${fromindex.servicepitch}</a></div>
+								</div>
 								</div>
 								`;
+		// 01 INDEX BACKGROUND
+		indexbg.innerHTML +=`	<img src="${image.toindexpage}"/> `;
+
+
+
+
+
+
+
 /*
 		// INDEX FOOTER
 		indexfooter.innerHTML +=`	<div class="brcindex02">
@@ -27,10 +40,5 @@ const 	indexfooter 	=	document.getElementsByClassName("indexfooter")[0];
 								<a class="brcindex02social" href="#">${icons.instagram}</a>
 								<a class="brcindex02social" href="#">${icons.facebook}</a>
 								</div>
-								`;	
-
-		// BACKGROUND
-		transauto.innerHTML +=`	<div class="indexbg"></div>
 								`;
-		
 */

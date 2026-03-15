@@ -1,7 +1,7 @@
 
 
 //  LINKS 
-// ----------------------------------
+//--------------------------------------------------------------
 const 	navpipes = [{ id:0,
 	 	chain00 : "/"				,
 	 	chain01 : "../"				,
@@ -12,17 +12,24 @@ const 	navpipes = [{ id:0,
 	 	chain06 : "../../../../../../"	,
 	 	chain07 : "../../../../../../../"
 }];
-// ----------------------------------
+//--------------------------------------------------------------
 
 //--------------------------------------------------------------
-//		tranauto    tranauto    tranauto    tranauto    tranauto
-
+//		PAGE LINKS FROM INDEX
 const 	navlinks = [{ id:0,
-	 	toindexpage 	: "index.html"			,
-	 	toaboutuspage	: "aboutus.html"	,
-	 	toservicespage	: "services.html"	,
-	 	toportfoliopage	: "portfolio.html",
-	 	tocontactuspage	: "contactus.html",
+		toindexpage 	: "index.html"	,
+		toservicespage	: "services.html",		servicepitch:"Shop Now",
+		toaboutuspage	: "aboutus.html",
+		toportfoliopage	: "portfolio.html",
+		tocontactuspage	: "contactus.html",
 		}];
 const 	fromindex = navlinks[0];
-// ------------
+
+//		IMAGES
+//--------------------------------------------------------------
+//		IN INDEX
+const 	pageimages = [{ id:0,
+		toindexpage 	: "00hub-transauto/03imgs/04indeximg0.jpg",
+		}];
+const 	image = pageimages[0];
+
